@@ -1,0 +1,37 @@
+// TailWind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.w-100 {
+    width: 100px;
+}
+
+.w-150 {
+    width: 150px;
+}
+
+.league-container {
+    width: 616px;
+
+    .league-table-container {
+        width: 350px;
+    }
+
+    .match-result-container {
+        width: 250px;
+    }
+}
+
+
+
+.predict-table-container {
+    width: 320px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.league-buttons {
+    width: 608px;
+    margin-top: 10px;
+}
